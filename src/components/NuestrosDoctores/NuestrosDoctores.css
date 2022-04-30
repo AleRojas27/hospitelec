@@ -1,0 +1,116 @@
+.nuestrosDoctores{
+
+    font-size: 16px;
+    height: auto;
+    background-color: var(--colorBlanco);
+    padding-bottom: 50px;
+
+}
+
+.nuestrosDoctores__titulo{
+
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    color: #093548;
+}
+
+.card__nuestrosDoctores{
+
+    background: #FFFFFF;
+    border: 1px solid #B2DDED;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.nuestrosDoctores__img{
+
+    width: 165px;
+    height: 165px;
+    border-radius: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+}
+
+.body__nuestrosDoctores{
+
+    text-align: center;
+    margin-top: 15px;
+}
+
+.nuestrosDoctores__nombreDoctor{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #29AAE3;
+
+}
+
+.nuestrosDoctores__nombreEspecialidad{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #093548;
+}
+
+.nuestrosDoctores__añosExperiencia{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4D4D4D;
+
+}
+
+.button__tele{
+
+    width: 200px;
+    height: 45px;
+    border: 1px solid #29AAE3;
+    box-sizing: border-box;
+    border-radius: 75px;
+    background-color: var(--colorBlanco);
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.tele__text{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #29AAE3;
+
+}
+
+.doctores__text{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #1B71A1;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}

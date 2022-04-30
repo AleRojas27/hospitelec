@@ -1,0 +1,76 @@
+.pagPrinHospitelec{
+
+    font-size: 16px;
+    background-color: #29AAE3;
+    height: auto;
+    padding-bottom: 30px;
+
+}
+
+.introduccion__paginaPrincipal{
+
+    margin-top: 80px;
+}
+
+.text__claro{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 73px;
+    color: #093548;
+}
+
+.text__fuerte{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 73px;
+    color: #093548;
+}
+
+.text__parrafo{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--colorBlanco);
+}
+
+.button__teleorientacion{
+
+    width: 323px;
+    height: 52px;
+    border-radius: 50px;
+    background-color: #093548;
+    border: transparent;
+    margin-top: 25px;
+}
+
+.teleorientacion__text{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--colorBlanco);
+}
+
+.introduccion__img{
+
+    margin-top: 80px;
+    position: absolute;
+}
+
+.img__paginaPrincipal{
+
+    width: 540px;
+    height: 437px;
+    border-radius: 75%;
+}

@@ -1,0 +1,66 @@
+.nuestrasEspecialidades{
+
+    font-size: 16px;
+    background-color: var(--colorBlanco);
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.titulo__especialidades{
+
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    color: #093548;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.especialidades{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.especialidades__text{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: gray;
+}
+
+.neurologia__img{
+
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.optometria__img{
+
+    margin-left: 22px;
+    margin-bottom: 10px;
+}
+
+.medicoGeneral__img{
+
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.cardiologo__img{
+
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.odontologia__img{
+
+    margin-left: 40px;
+    margin-bottom: 10px;
+}

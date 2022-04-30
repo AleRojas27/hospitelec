@@ -1,0 +1,97 @@
+.teleorientacion{
+
+    font-size: 16px;
+    background-color: var(--colorBlanco);
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.titulo__teleorientacion{
+
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    color: #093548;
+    margin-top: 300px;
+}
+
+
+
+.teleorientacion__img{
+
+    width: 100%;
+    height: 250px;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.datos__input{
+
+    width: 100%;
+    height: 40px;
+    border: 2px solid #29AAE3;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.datos__input:hover{
+
+    background: rgba(41, 170, 227, 0.1);
+}
+
+.teleorientacion__servicio{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: 2px solid #29AAE3;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+}
+
+.servicio__text{
+
+    color: gray;
+}
+
+.servicio__icon{
+
+    color: gray;
+}
+
+.datos__input__caja{
+
+    width: 100%;
+    height: 150px;
+    border: 2px solid #29AAE3;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.teleorientacion__button{
+
+    background: #29AAE3;
+    border-radius: 50px;
+    width: 100%;
+    height: 40px;
+    border: transparent;
+
+}
+
+.button__enviar{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,73 @@
+.cabezoteHospitelecCompu{
+
+    font-size: 16px;
+    background-color: #29AAE3;
+    height: 60px;
+}
+
+.cabezoteHospitelecCompu__escitorio{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoHospitelec{
+
+    width: 270px;
+    height: 41px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.escritorio__lista{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.escritorio__lista li{
+
+    display: flex;
+}
+
+.referencia__text{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--colorBlanco);
+    margin-left: 20px;
+    
+}
+
+.referencia__text:hover{
+
+    color: #0d80b1;
+    text-decoration: none;
+}
+
+.referencia__button{
+
+    width: 266px;
+    height: 45px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: #29AAE3;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.button__text{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--colorBlanco);
+     
+}
