@@ -9,7 +9,7 @@ function ComoFunciona ({imagenSolicita, imagenEspera, imagenUnDoctor, imagenWA})
 
                 <h1 className="comoFunciona__titulo">¿Cómo Funciona?</h1>
 
-                <div class="row comoFunciona__row">
+                <div className="row comoFunciona__row">
 
                     <div className="col-3">
 

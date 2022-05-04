@@ -2,7 +2,7 @@ import "./Header.css"
 
 function Header({ imagen }){
     return(
-        <div className="container-fluid cabezoteHospitelecCompu">
+        <header className="container-fluid cabezoteHospitelecCompu">
 
             <div className="container">
 
@@ -18,7 +18,7 @@ function Header({ imagen }){
 
                         <li>
 
-                            <a href="" className="lista__referencia">
+                            <a href="#" className="lista__referencia">
 
                                 <span className="referencia__text">¿Como funciona?</span>
 
@@ -28,7 +28,7 @@ function Header({ imagen }){
 
                         <li>
 
-                            <a href="" className="lista__referencia">
+                            <a href="#" className="lista__referencia">
 
                                 <span className="referencia__text">Servicios</span>
 
@@ -38,7 +38,7 @@ function Header({ imagen }){
 
                         <li>
 
-                            <a href="" className="lista__referencia">
+                            <a href="#" className="lista__referencia">
 
                                 <span className="referencia__text">Doctores</span>
 
@@ -48,7 +48,7 @@ function Header({ imagen }){
 
                         <li>
 
-                            <a href="" className="lista__referencia">
+                            <a href="#" className="lista__referencia">
 
                                 <button className="referencia__button">
 
@@ -66,7 +66,7 @@ function Header({ imagen }){
 
             </div>
 
-        </div>
+        </header>
     )
 }
 
