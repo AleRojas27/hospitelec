@@ -2,6 +2,7 @@
 import Home from './pages/Home';
 import SalaEspera from './pages/SalaEspera';
 import Gracias from './pages/Gracias';
+import Cita from './pages/Cita';
 
 // COMPONENTES
 import React from "react";
@@ -13,10 +14,6 @@ import NuestrasEspecialidades from "./components/NuestrasEspecialidades"
 import SaludProfesional from "./components/SaludProfesional"
 import ComoFunciona from "./components/ComoFunciona"
 import NuestrosDoctores from "./components/NuestrosDoctores"
-import HeaderSalaEspera from "./components/HeaderSalaEspera"
-import InfoDoc from "./components/InfoDoc"
-import CardPresentacion from "./components/CardPresentacion"
-import FooterSalaEspera from "./components/FooterSalaEspera"
 
 // RECURSOS
 import './App.css';
@@ -36,11 +33,9 @@ import imgEspera from "./assets/img/espera.png"
 import imgUnDoctor from "./assets/img/un_doctor.png"
 import imgWAPhoto from "./assets/img/WA_photo.png"
 import imgCard from "./assets/img/gatoXd.jepg"
-import imgDocSala from "./assets/img/gatoXd.jepg"
-import imgVistaPrevia from "./assets/img/dosificacion_alginato.jpg"
-import imgLogoPrivado from "./assets/img/hospital_privado_logo.png"
  
 function App() {
+
   return (
 
     <React.Fragment>
@@ -59,12 +54,15 @@ function App() {
               </Route>
 
               <Route path="/sala-espera/:id" exact>
-                <SalaEspera>
-                  <HeaderSalaEspera imagen={logo}></HeaderSalaEspera>
-                  <InfoDoc imagenDocSala={imgDocSala} imagenVistaPrevia={imgVistaPrevia}></InfoDoc>
-                  <CardPresentacion imagenLogoPrivado={imgLogoPrivado}></CardPresentacion>
-                  <FooterSalaEspera></FooterSalaEspera>
-                </SalaEspera>
+                <SalaEspera />
+              </Route>
+              
+              <Route path="/cita/:id" exact>
+                <Cita />
+              </Route>
+              
+              <Route path="/gracias/:id" exact>
+                <Gracias />
               </Route>
           </Switch>
       </BrowserRouter>

@@ -1,14 +1,24 @@
 import "./InfoDoc.css"
 
-function InfoDoc ({imagenDocSala, imagenVistaPrevia}){
+function InfoDoc ({imagenDocSala, imagenVistaPrevia, numeroPacientesEspera}){
     return(
         <div className="container-fluid salaEspera">
 
             <div className="container salaEspera__container noPadding-xs noPadding-sm">
 
-                <h1 className="salaEspera__titulo">Esta en la sala de espera.</h1>
+                <h1 className="salaEspera__titulo">
+                    { numeroPacientesEspera === 1 ? 
+                        `${ numeroPacientesEspera } paciente está ` : 
+                        `${ numeroPacientesEspera } pacientes están ` 
+                    } 
+                    en espera
+                </h1>
 
-                <p className="salaEspera__info">Espere por favor... Su teleorientación comenzara pronto.</p>
+                <div className="text-center">
+                    <div className="lds-heart"><div></div></div>
+                </div>
+
+                <p className="salaEspera__info">Su teleorientación comenzara pronto...</p>
 
                 <div className="row">
 
