@@ -59,7 +59,7 @@ export default function SalaEspera({ children }){
                 getNumeroPacientesSalaEspera()
                 getDatosDeCita(refresh)
             }
-          }, 2000);
+          }, 10000);
     } , []);
 
     return(
