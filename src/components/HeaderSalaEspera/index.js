@@ -3,11 +3,11 @@ import "./HeaderSalaEspera.css"
 function HeaderSalaEspera({imagen}){
     return(
 
-        <div class="container-fluid cabezoteHospitelec">
+        <div className="container-fluid cabezoteHospitelec">
 
-            <div class="cabezoteHospitelec__logo">
+            <div className="cabezoteHospitelec__logo">
 
-                <img src={imagen} alt="" class="logo__hospitelec" />
+                <img src={imagen} alt="" className="logo__hospitelec" />
 
             </div>
 
