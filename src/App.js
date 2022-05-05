@@ -21,17 +21,17 @@ import './App.css';
 // IMAGENES
 import logo from "./assets/img/logoHospitelec.png"
 import imgInicio from "./assets/img/gatoXd.jepg"
-import imgComenzarTeleorientacion from "./assets/img/farmacologia_para_odontologos.jpg"
-import imgNeurologia from "./assets/img/neurologia.png"
-import imgOptometria from "./assets/img/optometria.png"
-import imgMedicoGeneral from "./assets/img/medico_general.png"
-import imgCardiologo from "./assets/img/cardiologo.png"
-import imgOdontologia from "./assets/img/odontologia.png"
+import imgComenzarTeleorientacion from "./assets/img/dentista.png"
+import imgNeurologia from "./assets/img/neurologia.svg"
+import imgOptometria from "./assets/img/rehabilitacion.svg"
+import imgMedicoGeneral from "./assets/img/medico_general.svg"
+import imgCardiologo from "./assets/img/cardiologo.svg"
+import imgOdontologia from "./assets/img/odontologia.svg"
 import imgSaludProfesional from "./assets/img/protectores_personalizados.jpg"
-import imgSolicita from "./assets/img/solicita.png"
-import imgEspera from "./assets/img/espera.png"
-import imgUnDoctor from "./assets/img/un_doctor.png"
-import imgWAPhoto from "./assets/img/WA_photo.png"
+import imgSolicita from "./assets/img/solicita.svg"
+import imgEspera from "./assets/img/espera.svg"
+import imgUnDoctor from "./assets/img/un_doctor.svg"
+import imgWAPhoto from "./assets/img/WA_photo.svg"
 import imgCard from "./assets/img/gatoXd.jepg"
  
 function App() {
@@ -39,6 +39,7 @@ function App() {
   return (
 
     <React.Fragment>
+
       <BrowserRouter>
           <Switch>
               <Route path="/" exact> 

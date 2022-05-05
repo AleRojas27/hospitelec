@@ -1,9 +1,10 @@
 .pagPrinHospitelec{
 
     font-size: 16px;
-    background-color: #29AAE3;
-    height: auto;
-    padding-bottom: 30px;
+    background-image: url("../../assets/img/fondo_inicio.svg");
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: 0 -250px;
 
 }
 

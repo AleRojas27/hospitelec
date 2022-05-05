@@ -158,6 +158,8 @@ function ComenzarTeleorientacion ({ imagen }){
                             </div>
 
                             <div className="col-6 mt-2">
+                              
+                              <div className="content-select">
 
                                 <select className="teleorientacion__servicio" name="seleccionDeServicios" required onChange={ onChangeSelectServicios }>
                                     <option value="">
@@ -175,11 +177,16 @@ function ComenzarTeleorientacion ({ imagen }){
                                         )
                                     }
 
-                                </select>
+                                    </select>
+
+                                    <i className="fa-solid fa-chevron-down teleorientacion__icono"></i>
+
+                                </div>
 
                             </div>
 
                             <div className="col-6 mt-2">
+                              <div className="content-select">
 
                                 <select className="teleorientacion__servicio" name="idServicioMotivo" id="idServicioMotivo" required disabled >
 
@@ -201,6 +208,10 @@ function ComenzarTeleorientacion ({ imagen }){
                                     }
 
                                 </select>
+
+                                <i className="fa-solid fa-chevron-down teleorientacion__icono"></i>
+
+                              </div>
 
                             </div>
 

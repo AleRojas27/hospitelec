@@ -44,7 +44,7 @@ function InfoDoc ({imagenDocSala, imagenVistaPrevia, numeroPacientesEspera}){
 
                                 <button className="cardHospitelec__button">
 
-                                    <p className="button__text">Ocupado</p>
+                                    <p className="buttonOcupado__text">Ocupado</p>
 
                                 </button>
 

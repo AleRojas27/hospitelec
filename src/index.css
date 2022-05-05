@@ -89,6 +89,13 @@ button:focus{
   opacity: 0;
 }
 
+
+.content-select select{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
 #room{
   height: 100vh;
   width: 100%;
