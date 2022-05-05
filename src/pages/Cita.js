@@ -28,37 +28,37 @@ export default function Cita(){
         const urlCita = data[0].url_cita_room;
         setUrlRoomCita(urlCita);
         const room = document.getElementById('room');
-        if(room !== null){
-            console.log("room", room);
-            const callFrame = DailyIframe.createFrame(room)
-                .on('left-meeting', () => {
-                    // HA TERMINADO LA CITA, Y LO ENVIARÁ A LA SALA DE GRACIAS
-                    window.location.href = `/gracias/${idCita}`;
-                });
-            try {
-                callFrame.join({
-                    url: urlCita,
-                    showLeaveButton: true,
-                    userName:"Paciente",
-                    theme: {
-                        colors: {
-                            accent: '#093548',
-                            accentText: '#FFFFFF',
-                            background: '#29AAE3',
-                            backgroundAccent: '#FBFCFD',
-                            baseText: '#000000',
-                            border: '#EBEFF4',
-                            mainAreaBg: '#000000',
-                            mainAreaBgAccent: '#333333',
-                            mainAreaText: '#FFFFFF',
-                            supportiveText: '#808080',
-                        },
+        console.log("room", room);
+        const callFrame = DailyIframe.createFrame(room)
+            .on('left-meeting', () => {
+                // HA TERMINADO LA CITA, Y LO ENVIARÁ A LA SALA DE GRACIAS
+                window.location.href = `/gracias/${idCita}`;
+            });
+        try {
+            callFrame.join({
+                url: urlCita,
+                showLeaveButton: true,
+                userName:"Paciente",
+                theme: {
+                    colors: {
+                        accent: '#093548',
+                        accentText: '#FFFFFF',
+                        background: '#29AAE3',
+                        backgroundAccent: '#FBFCFD',
+                        baseText: '#000000',
+                        border: '#EBEFF4',
+                        mainAreaBg: '#000000',
+                        mainAreaBgAccent: '#333333',
+                        mainAreaText: '#FFFFFF',
+                        supportiveText: '#808080',
                     },
-                });
-            } catch (e) {
-                console.error(e);
-            }
+                },
+            });
+        } catch (e) {
+            console.error(e);
         }
+        // if(room !== null){
+        // }
     }
     
     React.useEffect(() => {
