@@ -1,5 +1,5 @@
 const config =  {
-    // urlApi: 'http://localhost:3001/api/',
+    // urlApi: 'http://192.168.100.16:3001/api/',
     urlApi: 'https://radiant-forest-42635.herokuapp.com/api/',
 }
 
