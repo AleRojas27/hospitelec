@@ -19,6 +19,8 @@ function NuestrosDoctores({imagenCardDoc}){
 
                                 <img src={imagenCardDoc} alt="" className="nuestrosDoctores__img" />
 
+                                <i class="fa-solid fa-circle-check nuestrosDoctores__icon"></i>
+
                             </div>
 
                             <div className="body__nuestrosDoctores">
@@ -53,6 +55,8 @@ function NuestrosDoctores({imagenCardDoc}){
 
                                 <img src={imagenCardDoc} alt="" className="nuestrosDoctores__img" />
 
+                                <i class="fa-solid fa-circle-check nuestrosDoctores__icon"></i>
+
                             </div>
 
                             <div className="body__nuestrosDoctores">
@@ -86,6 +90,8 @@ function NuestrosDoctores({imagenCardDoc}){
                             <div className="header__nuestrosDoctores">
 
                                 <img src={imagenCardDoc} alt="" className="nuestrosDoctores__img" />
+
+                                <i class="fa-solid fa-circle-check nuestrosDoctores__icon"></i>
 
                             </div>
 

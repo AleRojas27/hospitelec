@@ -19,11 +19,11 @@ function NuestrasEspecialidades ({imagenNeu, imagenOpto, imagenMedico, imagenCar
 
                     </a>
 
-                    <a href="" className="especialidades__optometria">
+                    <a href="" className="especialidades__rehabilitacion">
 
-                        <img src={imagenOpto} alt="" className="optometria__img" />
+                        <img src={imagenOpto} alt="" className="rehabilitacion__img" />
 
-                        <p className="especialidades__text">Optometria</p>
+                        <p className="especialidades__text">Rehabilitación</p>
 
                     </a>
 

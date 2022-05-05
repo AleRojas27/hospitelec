@@ -37,30 +37,39 @@
 
 .neurologia__img{
 
-    margin-left: 15px;
     margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
 }
 
-.optometria__img{
+.rehabilitacion__img{
 
-    margin-left: 22px;
+    margin-left: 10px;
     margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
 }
 
 .medicoGeneral__img{
 
-    margin-left: 40px;
+    margin-left: 12px;
     margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
 }
 
 .cardiologo__img{
 
-    margin-left: 20px;
+    margin-left: 5px;
     margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
 }
 
 .odontologia__img{
 
-    margin-left: 40px;
+    margin-left: 10px;
     margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
 }

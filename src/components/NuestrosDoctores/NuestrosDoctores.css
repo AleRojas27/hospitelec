@@ -29,6 +29,10 @@
     height: auto;
 }
 
+.header__nuestrosDoctores{
+    position: relative;
+}
+
 .nuestrosDoctores__img{
 
     width: 165px;
@@ -38,6 +42,15 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 75px;
+}
+
+.nuestrosDoctores__icon{
+
+    font-size: 29px;
+    color: #29AAE3;
+    position: absolute;
+    right: 140px;
+    top: 137px;
 }
 
 .body__nuestrosDoctores{
@@ -102,9 +115,6 @@
     color: white;
     
 }
-
-
-
 
 .doctores__text{
 
