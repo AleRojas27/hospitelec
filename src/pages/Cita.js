@@ -71,14 +71,11 @@ export default function Cita(){
     return(
         <section>
             <HeaderSalaEspera imagen={logo}/>
-            {
-                (urlRoomCita !== '') ? 
-                    <div id="room"></div> : 
-                    <div className="text-center">
-                        <div className="lds-heart"><div></div></div>
-                        <p>Iniciando consulta...</p>
-                    </div>
-            }
+            <div id="room"></div> 
+            <div className={ `${urlRoomCita !== "" && "hide"} text-center`}>
+                <div className="lds-heart"><div></div></div>
+                <p>Iniciando consulta...</p>
+            </div>
         </section>
     );
 }
