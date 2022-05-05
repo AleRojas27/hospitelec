@@ -2,7 +2,7 @@
 
     font-size: 16px;
     background-color: #29AAE3;
-    height: 60px;
+    height: auto;
 }
 
 .cabezoteHospitelecCompu__escitorio{
@@ -24,7 +24,7 @@
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 }
 
 .escritorio__lista li{
@@ -45,7 +45,7 @@
 
 .referencia__text:hover{
 
-    color: #0d80b1;
+    color: #093548;
     text-decoration: none;
 }
 
@@ -71,3 +71,4 @@
     color: var(--colorBlanco);
      
 }
+

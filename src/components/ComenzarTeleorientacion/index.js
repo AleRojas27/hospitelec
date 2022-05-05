@@ -33,17 +33,28 @@ function ComenzarTeleorientacion ({ imagen }){
 
                             <div className="col-6">
 
-                                <input type="number" name="celular" className="datos__input" placeholder="Numero de celular" required maxlength="15" />            
+                                <input type="number" name="celular" className="datos__input" placeholder="Numero de celular" required />            
 
                             </div>
 
                             <div className="col-6 mt-2">
 
-                                <select className="teleorientacion__servicio" name="seleccionDeServicios" required>
+                                <div className="content-select">
 
-                                    <option>Servicio</option>
+                                    <select className="teleorientacion__servicio" name="seleccionDeServicios" required>
 
-                                </select>
+                                        <option>Servicio</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+
+                                    </select>
+
+                                    <i className="fa-solid fa-chevron-down teleorientacion__icono"></i>
+
+                                </div>
+
+                                
 
                             </div>
 
@@ -55,7 +66,7 @@ function ComenzarTeleorientacion ({ imagen }){
 
                             <div className="col-12 mt-2">
 
-                                <textarea name="comentario" id="" cols="30" rows="10" className="datos__input__caja" placeholder="" required></textarea>
+                                <textarea name="comentario" id="" cols="30" rows="10" className="datos__input__caja" placeholder="Detalla cómo te sientes y que crees que debamos saber previo a tu teleorientación." required></textarea>
 
                             </div>
 

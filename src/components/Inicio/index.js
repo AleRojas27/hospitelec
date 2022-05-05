@@ -8,7 +8,11 @@ function Inicio ({ imagen }){
 
                 <div className="row">
 
-                    <div className="col-6">
+                    <div className="col-1">
+
+                    </div>
+
+                    <div className="col-5">
 
                         <div className="introduccion__paginaPrincipal"> 
 
@@ -30,13 +34,17 @@ function Inicio ({ imagen }){
                     
                     </div>
 
-                    <div className="col-6">
+                    <div className="col-5">
 
                         <div className="introduccion__img">
 
                             <img src={imagen} alt="" className="img__paginaPrincipal" />
 
                         </div>
+
+                    </div>
+
+                    <div className="col-1">
 
                     </div>
 

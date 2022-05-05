@@ -89,6 +89,13 @@ button:focus{
   opacity: 0;
 }
 
+.content-select select{
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
 /*XS*/ 
 @media (max-width: 575px) {
 

@@ -88,9 +88,6 @@
     background-color: var(--colorBlanco);
     margin-top: 25px;
     margin-bottom: 100px;
-}
-
-.tele__text{
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -98,8 +95,16 @@
     font-size: 14px;
     line-height: 17px;
     color: #29AAE3;
-
 }
+
+.button__tele:hover{
+    background-color: #29AAE3;
+    color: white;
+    
+}
+
+
+
 
 .doctores__text{
 

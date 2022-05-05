@@ -101,7 +101,7 @@ function NuestrosDoctores({imagenCardDoc}){
 
                                     <button className="button__tele">
 
-                                        <span className="tele__text">Hacer teleorientacion</span>
+                                        Hacer teleorientacion
 
                                     </button>
 
