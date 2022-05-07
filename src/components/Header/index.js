@@ -4,7 +4,7 @@ function Header({ imagen }){
     return(
         <div className="container-fluid cabezoteHospitelecCompu">
 
-            <div className="container">
+            <div className="container noPadding-sm noPadding-xs">
 
                 <div className="cabezoteHospitelecCompu__escitorio">
 
@@ -14,11 +14,11 @@ function Header({ imagen }){
 
                     </div>
 
-                    <ul className="escritorio__lista">
+                    <ul className="escritorio__lista noMargin-md noMargin-xs">
 
                         <li>
 
-                            <a href="" className="lista__referencia">
+                            <a href="" className="lista__referencia col-sm-0 col-xs-0">
 
                                 <span className="referencia__text">¿Como funciona?</span>
 
@@ -28,7 +28,7 @@ function Header({ imagen }){
 
                         <li>
 
-                            <a href="" className="lista__referencia">
+                            <a href="" className="lista__referencia col-sm-0 col-xs-0">
 
                                 <span className="referencia__text">Servicios</span>
 
@@ -38,7 +38,7 @@ function Header({ imagen }){
 
                         <li>
 
-                            <a href="" className="lista__referencia">
+                            <a href="" className="lista__referencia col-sm-0 col-xs-0">
 
                                 <span className="referencia__text">Doctores</span>
 
@@ -48,7 +48,7 @@ function Header({ imagen }){
 
                         <li>
 
-                            <a href="" className="lista__referencia">
+                            <a href="" className="lista__referencia col-md-0 col-sm-0 col-xs-0">
 
                                 <button className="referencia__button">
 

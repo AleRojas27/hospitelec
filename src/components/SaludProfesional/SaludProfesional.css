@@ -51,14 +51,116 @@
     background-color: var(--colorBlanco);
     border-radius: 50px;
     border: transparent;
-}
-
-.button__salud{
-
+    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     color: #224E61;
+}
+
+/*XS*/ 
+@media (max-width: 575px) {
+
+    .saludProfesional{
+
+        height: auto;
+        background-color: #29AAE3;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .saludProfesional__titulo{
+
+        font-size: 30px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .saludProfesional__parrafo{
+
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .saludProfesional__boton{
+
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .saludProfesional__button{
+
+        width: 225px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+}
+
+
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+    
+}
+
+
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .saludProfesional{
+
+        padding-left: 0;
+        padding-right: 0;
+        height: 450px;
+    }
+
+    .img__telemedicina{
+
+        width: 330px;
+        height: 300px;
+    }
+
+    .saludProfesional__titulo{
+
+        font-size: 28px;
+
+    }
+
+    .saludProfesional__parrafo{
+
+        font-size: 14px;
+    }
+
+    .saludProfesional__button{
+
+        width: 230px;
+        height: 45px;
+        font-size: 14px;
+    }
+    
+}
+
+
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    .saludProfesional{
+
+        padding-left: 0;
+        padding-right: 0; 
+    }
+
+    .img__telemedicina{
+
+        width: 450px;
+    }
+    
+}
+
+
+/*XL*/
+@media (min-width: 1200px){
+  
 }

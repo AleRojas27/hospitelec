@@ -59,3 +59,103 @@
     color: #000000;
     margin-left: 10px;
 }
+
+/*XS*/ 
+@media (max-width: 575px) {
+
+    .comoFunciona__titulo{
+
+        font-size: 40px;
+    }
+
+    .pasos__img{
+
+        width: 200px;
+        height: 200px;
+    }
+
+    .pasos__info{
+
+        align-items: center;
+    }
+
+    .info__numero{
+
+        font-size: 40px;
+    }
+
+    .info__text{
+
+        font-size: 16px;
+        margin-left: 12px;
+    }
+
+}
+
+
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+    
+}
+
+
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .comoFunciona__titulo{
+
+        font-size: 45px;
+    }
+
+    .pasos__img{
+
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .pasos__info{
+
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .info__numero{
+
+        font-size: 45px;
+    }
+
+    .info__text{
+
+        font-size: 18px;
+    }
+    
+}
+
+
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    .pasos__img{
+
+        width: 220px;
+        height: 220px;
+    }
+
+    .info__numero{
+
+        font-size: 50px;
+    }
+
+    .info__text{
+
+        font-size: 17px;
+    }
+    
+}
+
+
+/*XL*/
+@media (min-width: 1200px){
+  
+}

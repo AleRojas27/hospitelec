@@ -51,9 +51,6 @@
     background-color: #093548;
     border: transparent;
     margin-top: 25px;
-}
-
-.teleorientacion__text{
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -74,4 +71,161 @@
     width: 540px;
     height: 437px;
     border-radius: 75%;
+}
+
+/*XS*/ 
+@media (max-width: 575px) {
+
+    .pagPrinHospitelec{
+
+        background-repeat: no-repeat;
+        height: 500px;
+        background-position:-270px -375px;
+    }
+
+    .introduccion__paginaPrincipal{
+        margin-top: 20px;
+    }
+
+    .text__claro{
+
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .text__fuerte{
+
+        font-size: 30px;
+    }
+
+    .text__parrafo{
+
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .paginaPrincipal__button{
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .button__teleorientacion{
+
+        width: 250px;
+        height: 45px;
+        font-size: 12px;
+    }
+
+}
+
+
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+    
+}
+
+
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .pagPrinHospitelec{
+
+        background-image: url("../../assets/img/fondo_inicio.svg");
+        background-repeat: no-repeat;
+        height: 450px;
+        background-position: -100px -370px;
+    
+    }
+
+    .introduccion__paginaPrincipal{
+
+        margin-top: 40px;
+    }
+
+    .text__claro{
+
+        font-size: 35px;
+    }
+
+    .text__fuerte{
+
+        font-size: 35px;
+    }
+
+    .text__parrafo{
+
+        font-size: 17px;
+    }
+
+    .button__teleorientacion{
+
+        width: 275px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .introduccion__img{
+
+        margin-top: 60px;
+    }
+
+    .img__paginaPrincipal{
+
+        width: 330px;
+        height: 320px;
+        
+    }
+    
+}
+
+
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    .pagPrinHospitelec{
+
+        height: 510px;
+        background-position: 0 -280px;
+    }
+
+    .text__claro{
+
+        font-size: 40px;
+        
+    }
+    
+    .text__fuerte{
+    
+        font-size: 40px;
+        
+    }
+
+    .text__parrafo{
+
+        font-size: 18px;
+    }
+
+    .button__teleorientacion{
+
+        width: 300px;
+        height: 52px;
+    
+        font-size: 16px;
+    }
+
+    .img__paginaPrincipal{
+
+        width: 450px;
+        height: 377px;
+
+    }
+
+    
+}
+
+
+/*XL*/
+@media (min-width: 1200px){
+  
 }

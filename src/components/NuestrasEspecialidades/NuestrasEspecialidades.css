@@ -73,3 +73,131 @@
     width: 100px;
     height: 100px;
 }
+
+/*XS*/ 
+@media (max-width: 575px) {
+
+    .titulo__especialidades{
+
+        font-size: 40px;
+        margin-top: 90px;
+    }
+
+    .especialidades{
+
+        display: block;
+        text-align: center;
+    }
+
+    .especialidades__text{
+
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .neurologia__img{
+
+        margin-bottom: 5px;
+        width: 85px;
+        height: 85;
+    }
+
+    .rehabilitacion__img{
+
+        margin-left: 0;
+        margin-bottom: 5px;
+        width: 85px;
+        height: 85;
+    }
+
+    .medicoGeneral__img{
+
+        margin-left: 0;
+        margin-bottom: 5px;
+        width: 85px;
+        height: 85;
+    }
+
+    .cardiologo__img{
+
+        margin-left: 0;
+        margin-bottom: 5px;
+        width: 85px;
+        height: 85;
+    }
+
+    .odontologia__img{
+
+        margin-left: 0;
+        margin-bottom: 5px;
+        width: 85px;
+        height: 85;
+    }
+
+}
+
+
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+    
+}
+
+
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .titulo__especialidades{
+
+        font-size: 45px;
+        margin-top: 150px;
+    }
+
+    .neurologia__img{
+
+        width: 80px;
+        height: 80px;
+    }
+
+    .rehabilitacion__img{
+
+        width: 80px;
+        height: 80px;        
+    }
+
+    .medicoGeneral__img{
+
+        width: 80px;
+        height: 80px;
+    }
+
+    .cardiologo__img{
+
+        width: 80px;
+        height: 80px;
+    }
+
+    .odontologia__img{
+
+        width: 80px;
+        height: 80px;
+    }
+
+    .especialidades__text{
+
+        font-size: 16px;
+    }
+    
+}
+
+
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    
+}
+
+
+/*XL*/
+@media (min-width: 1200px){
+  
+}

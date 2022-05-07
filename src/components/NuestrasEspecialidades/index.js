@@ -5,7 +5,7 @@ function NuestrasEspecialidades ({imagenNeu, imagenOpto, imagenMedico, imagenCar
 
         <div className="container-fluid nuestrasEspecialidades">
 
-            <div className="container">
+            <div className="container noPadding-sm noPadding-xs">
 
                 <h1 className="titulo__especialidades">NUESTRAS ESPECIALIDADES</h1>
 

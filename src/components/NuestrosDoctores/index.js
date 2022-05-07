@@ -5,13 +5,13 @@ function NuestrosDoctores({imagenCardDoc}){
 
         <div className="container-fluid nuestrosDoctores">
 
-            <div className="container nuestrosDoctores__container">
+            <div className="container noPadding-sm noPadding-xs nuestrosDoctores__container">
 
                 <h1 className="nuestrosDoctores__titulo">NUESTROS DOCTORES</h1>
 
                 <div className="row nuestrosDoctores__row mt-5">
 
-                    <div className="col-4">
+                    <div className="col-xl-4 col-lg-4 col-md-6">
 
                         <div className="card__nuestrosDoctores">
 
@@ -35,7 +35,7 @@ function NuestrosDoctores({imagenCardDoc}){
 
                                     <button className="button__tele">
 
-                                        <span className="tele__text">Hacer teleorientacion</span>
+                                        Hacer teleorientacion
 
                                     </button>
 
@@ -47,7 +47,7 @@ function NuestrosDoctores({imagenCardDoc}){
 
                     </div>
 
-                    <div className="col-4">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-0 col-xs-0">
 
                         <div className="card__nuestrosDoctores">
 
@@ -83,7 +83,7 @@ function NuestrosDoctores({imagenCardDoc}){
 
                     </div>
 
-                    <div className="col-4">
+                    <div className="col-xl-4 col-lg-4 col-md-0 col-sm-0 col-xs-0">
 
                         <div className="card__nuestrosDoctores">
 
@@ -123,7 +123,7 @@ function NuestrosDoctores({imagenCardDoc}){
 
                 <a href="" className="nuestrosDoctores__doctores">
 
-                    <span className="doctores__text">ver todos los doctores</span>
+                    <span className="doctores__text">VER TODOS LOS DOCTORES</span>
 
                 </a>
 

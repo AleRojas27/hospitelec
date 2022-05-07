@@ -116,6 +116,12 @@
     
 }
 
+.doctores__text:hover{
+
+    color: #093548;
+    text-decoration: none;
+}
+
 .doctores__text{
 
     font-family: 'Montserrat';
@@ -128,4 +134,169 @@
     justify-content: center;
     margin-top: 30px;
     
+}
+
+/*XS*/ 
+@media (max-width: 575px) {
+
+    .nuestrosDoctores__titulo{
+
+        font-size: 40px;
+    }
+
+    .card__nuestrosDoctores{
+
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nuestrosDoctores__img{
+
+        width: 165px;
+        height: 165px;
+        margin-top: 60px;
+    }
+
+    .nuestrosDoctores__icon{
+
+        font-size: 25px;
+        right: 103px;
+        top: 140px;
+    }
+
+    .nuestrosDoctores__nombreDoctor{
+
+        font-size: 20px;
+    }
+
+    .nuestrosDoctores__nombreEspecialidad{
+
+        font-size: 16px;
+    }
+
+    .nuestrosDoctores__añosExperiencia{
+
+        font-size: 13px;
+    }
+
+    .button__tele{
+
+        width: 180px;
+        height: 40px;
+        font-size: 12px;
+        margin-bottom: 80px;
+    }
+
+    .doctores__text{
+
+        text-align: center;
+        font-size: 20px;
+    }
+
+}
+
+
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+    
+}
+
+
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .nuestrosDoctores__titulo{
+
+        font-size: 45px;
+    }
+
+    .nuestrosDoctores__img{
+
+        width: 150px;
+        height: 150px;
+        margin-top: 60px;
+    }
+
+    .nuestrosDoctores__icon{
+
+        font-size: 25px;
+        color: #29AAE3;
+        position: absolute;
+        right: 115px;
+        top: 130px;
+    }
+
+    .nuestrosDoctores__nombreDoctor{
+
+        font-size: 20px;
+    }
+
+    .nuestrosDoctores__nombreEspecialidad{
+
+        font-size: 16px;
+    }
+
+    .nuestrosDoctores__añosExperiencia{
+
+        font-size: 14px;
+    }
+
+    .button__tele{
+
+        width: 185px;
+        height: 40px;
+        font-size: 14px ;
+        margin-bottom: 80px;
+    }
+
+    .doctores__text{
+
+        font-size: 22px;
+    }
+    
+}
+
+
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    .nuestrosDoctores__img{
+
+        width: 145px;
+        height: 145px;
+        margin-top: 65px;
+    }
+
+    .nuestrosDoctores__icon{
+
+        font-size: 25px;
+        color: #29AAE3;
+        position: absolute;
+        right: 95px;
+        top: 125px;
+    }
+
+    .body__nuestrosDoctores{
+
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .nuestrosDoctores__nombreDoctor{
+
+        font-size: 22px;
+    }
+    
+    .nuestrosDoctores__nombreEspecialidad{
+    
+        font-size: 18px;
+    }
+    
+}
+
+
+/*XL*/
+@media (min-width: 1200px){
+  
 }

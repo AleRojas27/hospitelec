@@ -5,13 +5,13 @@ function ComenzarTeleorientacion ({ imagen }){
 
         <div className="container-fluid teleorientacion">
 
-            <div className="container">
+            <div className="container noPadding-sm noPadding-xs">
 
                 <h1 className="titulo__teleorientacion">COMENZAR TELEORIENTACIÓN</h1>
 
                 <div className="row">
 
-                    <div className="col-6">
+                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
                         <div className="teleorientacion__imagen">
 
@@ -21,23 +21,23 @@ function ComenzarTeleorientacion ({ imagen }){
 
                     </div>
 
-                    <div className="col-6">
+                    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
                         <form className="row teleorientacion__datos" type="GET">
 
-                            <div className="col-6">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
                                 <input type="text" name="nombre" className="datos__input" placeholder="Nombre completo" required />
 
                             </div>
 
-                            <div className="col-6">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
-                                <input type="number" name="celular" className="datos__input" placeholder="Numero de celular" required />            
+                                <input type="tel" name="celular" className="datos__input" placeholder="Numero de celular" required />            
 
                             </div>
 
-                            <div className="col-6 mt-2">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
                                 <div className="content-select">
 
@@ -58,23 +58,23 @@ function ComenzarTeleorientacion ({ imagen }){
 
                             </div>
 
-                            <div className="col-6 mt-2">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
                                 <input type="email" name="email" className="datos__input" placeholder="Correo electronico" required />
 
                             </div>
 
-                            <div className="col-12 mt-2">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
                                 <textarea name="comentario" id="" cols="30" rows="10" className="datos__input__caja" placeholder="Detalla cómo te sientes y que crees que debamos saber previo a tu teleorientación." required></textarea>
 
                             </div>
 
-                            <div className="col-12 mt-4">
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-1">
 
                                 <button type="" className="teleorientacion__button">
 
-                                    <p className="button__enviar">ENVIAR Y COMENZAR TELEORIENTACION</p>
+                                    ENVIAR Y COMENZAR TELEORIENTACION
 
                                 </button>
 

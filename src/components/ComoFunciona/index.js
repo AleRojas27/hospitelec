@@ -5,13 +5,13 @@ function ComoFunciona ({imagenSolicita, imagenEspera, imagenUnDoctor, imagenWA})
 
         <div className="container-fluid comoFunciona">
 
-            <div className="container comoFunciona__container">
+            <div className="container noPadding-sm noPadding-xs comoFunciona__container">
 
                 <h1 className="comoFunciona__titulo">¿Cómo Funciona?</h1>
 
                 <div class="row comoFunciona__row">
 
-                    <div className="col-3">
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
 
                         <div className="comoFunciona__pasos">
 
@@ -29,7 +29,7 @@ function ComoFunciona ({imagenSolicita, imagenEspera, imagenUnDoctor, imagenWA})
 
                     </div>
 
-                    <div className="col-3">
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
 
                         <div className="comoFunciona__pasos">
 
@@ -47,7 +47,7 @@ function ComoFunciona ({imagenSolicita, imagenEspera, imagenUnDoctor, imagenWA})
                         
                     </div>
 
-                    <div className="col-3">
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
 
                         <div className="comoFunciona__pasos">
 
@@ -65,7 +65,7 @@ function ComoFunciona ({imagenSolicita, imagenEspera, imagenUnDoctor, imagenWA})
                         
                     </div>
 
-                    <div className="col-3">
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
 
                         <div className="comoFunciona__pasos">
 

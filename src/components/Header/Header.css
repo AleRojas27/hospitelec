@@ -72,3 +72,76 @@
      
 }
 
+/*XS*/ 
+@media (max-width: 575px) {
+
+    .cabezoteHospitelecCompu{
+
+        height: 45px;
+    }
+
+    .cabezoteHospitelecCompu__escitorio{
+
+        display: block;
+    }
+
+    .escritorio__logoHospitelec{
+
+        text-align: center;
+    }
+
+
+    .logoHospitelec{
+
+        width: 175px;
+        height: 30px;
+    }
+}
+
+
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+    
+}
+
+
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .col-md-0{
+
+        display: none;
+    }
+
+    .noMargin-md{
+        margin: 0!important;
+    }
+    
+}
+
+
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    .cabezoteHospitelecCompu{
+
+        font-size: 16px;
+        background-color: #29AAE3;
+        height: 80px;
+    }
+
+    .logoHospitelec{
+
+        width: 240px;
+        height: 35px;
+    }
+
+    
+}
+
+
+/*XL*/
+@media (min-width: 1200px){
+  
+}
+
